@@ -1,0 +1,10 @@
+{
+  "K": 4,
+  "alpha": 7969.45,
+  "tau": 0.0732,
+  "best_r": -0.0169,
+  "n_trials": 50,
+  "n_subjects": 15,
+  "freq_lo": 0.5,
+  "freq_hi": 8.0
+}
