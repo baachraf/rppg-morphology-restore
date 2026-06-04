@@ -1,12 +1,13 @@
 # Template Collapse and Information-Theoretic Limits in Camera rPPG Pulse Morphology Restoration
 
+**IEEE Journal of Biomedical and Health Informatics (JBHI)**
 Achraf Ben Ahmed, PlesmoSense SARL
 
 ---
 
 ## Overview
 
-This repository contains the full source code for the paper on rPPG morphological restoration. We investigate whether a deep generative prior trained on clinical-grade contact PPG can decode subject-specific pulse morphology from consumer camera rPPG signals.
+This repository contains the full source code for our JBHI paper on rPPG morphological restoration. We investigate whether a deep generative prior trained on clinical-grade contact PPG can decode subject-specific pulse morphology from consumer camera rPPG signals.
 
 **Key finding:** Template collapse is an information-theoretic limit of the camera input signal — not an architectural failure. All 16 tested architectures collapse to the population-average waveform. The SupCon contrastive family confirms this: 6 independent variants all converge to log(N) = 4.844, the theoretical null for a batch of N = 127 samples.
 
@@ -175,3 +176,20 @@ bootstrap_gt_ceiling.py  — bootstrap CI on GT ceiling
 requirements.txt
 ```
 
+---
+
+## Citation
+
+If you use this code, please cite:
+
+```
+@article{benahmed2026rppg,
+  title          = {Template Collapse and Information-Theoretic Limits in Camera rPPG Pulse Morphology Restoration},
+  author         = {Ben Ahmed, Achraf},
+  journal        = {IEEE Journal of Biomedical and Health Informatics},
+  year           = {2026},
+  eprint         = {2606.03802},
+  archivePrefix  = {arXiv},
+  url            = {https://arxiv.org/abs/2606.03802}
+}
+```
